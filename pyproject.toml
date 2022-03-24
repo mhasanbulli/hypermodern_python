@@ -5,8 +5,8 @@ description = "The modern Python project"
 authors = ["Mustafa Hasanbulli <mustafa.hasanbulli@xero.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.dev.xero.com/mustafa-hasanbulli/hypermodern-python"
-repository = "https://github.dev.xero.com/mustafa-hasanbulli/hypermodern-python"
+homepage = "https://github.com/mhasanbulli/hypermodern_python"
+repository = "https://github.com/mhasanbulli/hypermodern_python"
 keywords = ["hypermodern"]
 
 [tool.poetry.dependencies]
@@ -15,6 +15,9 @@ click = "^8.0.4"
 requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+coverage = {version = "^6.3.2", extras = ["toml"]}
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
